@@ -1,0 +1,13 @@
+header h1 {
+    padding-bottom: 5%;
+}
+header nav {
+    background-color: aqua;
+    padding: 2% 2% 2% 0%;
+}
+header nav a {
+    padding: 2%;
+    border-right: 1px dashed black;
+    text-decoration: none;
+    color: black;
+}
