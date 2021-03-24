@@ -23,3 +23,7 @@ header nav a {
 header nav a:hover {
     color: gray;
 }
+
+footer {
+    background-color: lightgray;
+}
