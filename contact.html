@@ -7,9 +7,12 @@
 
 <body>
     <header>
-        <h1>  <img width=10% src="images/logo.PNG"/> TeleHealth Company Name</h1>
+        <h1>
+            <a class="headerlink" href="index.html"> <img width=10% src="images/logo.PNG"/>TeleHealth Company Name</a>
+        </h1>
+
         <nav>
-            <a class="navitem active" href="#">Home</a>
+            <a class="navitem active" href="index.html">Home</a>
             <a class="navitem" href="about.html">About</a>
             <a class="navitem" href="history.html">History</a>
             <a class="navitem" href="solutions.html">Solutions</a>
@@ -18,21 +21,40 @@
         </nav>
     </header>
     <main>
+        <h2>Contact Us!</h2>
+        <p>If you would like to communicate with us, please fill out this form so that we can get back to you!</p>
+        <br>
         <form>
             <label for = "name">Name: </label>
             <input id = "name" type = "text">
+            <br>
             <br>
             
             <label for = "email">Email: </label>
             <input id = "email" type = "email">
             <br>
+            <br>
 
             <label for = "phone">Phone: </label>
             <input id = "phone" type = "tel">
             <br>
-            
+            <br>
+
+            <label for = "info">Provide A Reason For Your Contact: </label>
+            <br>
+            <textarea id = "info" rows = "4" cols = "50"></textarea>
+            <br>
+            <br>
+
             <input type="submit" value="Submit">
         </form>
     </main>
+    <footer>
+        <p>Property of TeleHealth Company Name</p>
+        <br>
+        <a href=contact.html>Contact Us!</a>
+        <p>Phone: 1 (800) 753 - 7535</p>
+        <p>Email: telehealthcompanyname@telehealth.org</p>
+    </footer>
 </body>
 </html>
