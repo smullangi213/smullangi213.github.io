@@ -1,17 +1,15 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: lightgray;
+    background-color: white;
 }
 
 a {
-    color: lightgray;
+    color: black;
     text-decoration: none;
 }
 
 header h1 {
-    background-color: lightgray;
     text-align: left;
-    border-bottom: 0px solid white;
 }
 
 header h1 a {
@@ -24,21 +22,33 @@ header h1 img {
 }
 
 header nav {
-    background-color: darkblue;
+    background-color: lightblue;
     padding: 1% 2% 1% 0%;
+    border-bottom: 1px solid lightgray;
 }
 
 header nav a {
     padding: 1%;
     text-decoration: none;
-    color: white;
 }
 
-header nav a:hover {
+a:hover {
     color: gray;
 }
 
+a.headerlink:hover {
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    padding : 2%;
+    margin: 0;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+
 footer {
-    background-color: darkblue;
-    color: white;
+    background-color: lightblue;
+    color: black;
 }
