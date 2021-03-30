@@ -1,19 +1,26 @@
+/* #095256;
+#087F8C;
+#5AAA95;
+#86A873;
+#BB9F06; */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+    color:#095256
 }
 
-a {
-    color: black;
+a, a.headerlink:hover, a:active, a:visited {
+    color: #095256;
     text-decoration: none;
 }
 
-header h1 {
+header h1{
+    margin: 0;
+    background-color: #087F8C;
     text-align: left;
 }
 
 header h1 a {
-    color: black;
     text-decoration: none;
 }
 
@@ -22,9 +29,8 @@ header h1 img {
 }
 
 header nav {
-    background-color: lightblue;
+    background-color: #5AAA95;
     padding: 1% 2% 1% 0%;
-    border-bottom: 1px solid lightgray;
 }
 
 header nav a {
@@ -33,22 +39,21 @@ header nav a {
 }
 
 a:hover {
-    color: gray;
+    color: #BB9F06;
+    font-weight: bold;
 }
 
-a.headerlink:hover {
-    color: black;
+main {
+    background-color: #86A873;
+    margin: 0;
 }
-
 h2 {
     text-align: center;
     padding : 2%;
     margin: 0;
-    background-color: white;
-    border-bottom: 1px solid lightgray;
 }
 
 footer {
-    background-color: lightblue;
-    color: black;
+    background-color: #5AAA95;
+    margin: 0;
 }
