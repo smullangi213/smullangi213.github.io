@@ -22,37 +22,39 @@ header h1{
     font-size: 5em;
 }
 
-header h1 a {
+header h1 a, header h1 a:hover {
     text-decoration: none;
+    background-color: #087F8C;
 }
 
 header h1 img {
     width: 8%;
 }
 
-header nav {
-    background-color: #5AAA95;
-    padding: 1% 2% 1% 0%;
-}
-
 header nav a {
-    padding: 1%;
+    background-color: #5AAA95;
+    font-size: 125%;
+    font-weight: bold;
+    float: left;
+    padding: 1% 0%;
+    width: 20%;
+    text-align: center;
     text-decoration: none;
 }
 
 a:hover {
-    color: #1b1802;
-    font-weight: bold;
+    background-color: #5FAF9A;
 }
 
 main {
     background-color: #86A873;
+    padding: 2%;
     margin: 0;
 }
 h2 {
     text-align: center;
-    padding : 2%;
-    margin: 0;
+    padding-top: 1%;
+    font-size: 2em;
 }
 
 footer {
