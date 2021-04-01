@@ -5,26 +5,31 @@
 #86A873;
 #BB9F06; */
 
+/* New:
+Header background Color: #94a2e0
+nav color: #eee
+text color: #323232
+Nav/Footer background: #324bb7
+nav background hover: #526bd7
+Body: #eee
+Link Highlight: #526bd7
+*/
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #000055;
+    color: #323232;
 }
 
-a, a.headerlink:hover, a:active, a:visited {
-    color: #000055;
+a, a:hover {
+    color: #323232;
     text-decoration: none;
 }
 
 header h1{
     margin: 0;
-    background-color: #87bcc2;
+    background-color: #94a2e0;
     text-align: center;
     font-size: 5em;
-}
-
-header h1 a, header h1 a:hover {
-    text-decoration: none;
-    background-color: #087F8C;
 }
 
 header h1 img {
@@ -32,7 +37,8 @@ header h1 img {
 }
 
 header nav a {
-    background-color: #5AAA95;
+    color: #eee;
+    background-color: #324bb7;
     font-size: 125%;
     font-weight: bold;
     float: left;
@@ -42,15 +48,18 @@ header nav a {
     text-decoration: none;
 }
 
-a:hover {
-    background-color: #5FAF9A;
+nav a:hover {
+    color: #eee;
+    background-color: #526bd7;
 }
 
 main {
-    background-color: #86A873;
+    background-color: #eee;
     padding: 2%;
     margin: 0;
 }
+
+
 h2 {
     text-align: center;
     padding-top: 1%;
@@ -58,6 +67,6 @@ h2 {
 }
 
 footer {
-    background-color: #5AAA95;
+    background-color: #94a2e0;
     margin: 0;
 }
