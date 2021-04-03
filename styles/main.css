@@ -46,6 +46,7 @@ header nav {
     display: flex;
     background-color: #324bb7;
     justify-content: space-around;
+    align-items: center;
 }
 
 header nav a {
@@ -97,9 +98,8 @@ footer {
 
     header nav.responsive a.navitem {
         display: block;
-        font-size: 2em;
+        font-size: 1.5em;
     }
-
 
     header nav a.navitem {
         display: none;
@@ -117,9 +117,5 @@ footer {
         text-align: right;
         float: left;
         border: none;
-    }
-
-    header nav a {
-        font-size: .6rem;
     }
 }
