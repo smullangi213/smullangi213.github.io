@@ -33,12 +33,13 @@ header h1 {
     padding: .25em 0em .25em 0em;
 }
 
-header h1 p {
-    font-size: 1rem;
+header h1 a img {
+    width: 64px;
+    border: none;
 }
 
-header h1 img {
-    width: 8%;
+header h1 p {
+    font-size: 1rem;
 }
 
 header nav {
@@ -58,7 +59,11 @@ header nav a {
     padding: .75em 0em;
 }
 
-nav a:hover {
+header nav a.menulogo, a.hamburgermenu {
+    display: none;
+}
+
+nav a.navitem:hover {
     color: #eee;
     background-color: #526bd7;
 }
@@ -79,4 +84,42 @@ h2 {
 footer {
     background-color: #94a2e0;
     margin: 0;
+}
+
+@media screen and (max-width: 550px) {
+    header h1 {
+        display: none;
+    }
+    
+    header nav.responsive {
+        flex-direction: column;
+    }
+
+    header nav.responsive a.navitem {
+        display: block;
+        font-size: 2em;
+    }
+
+
+    header nav a.navitem {
+        display: none;
+    }
+    
+    header nav a.menulogo {
+        display: block;
+        text-align: left;
+        float: left;
+        border: none;
+    }
+
+    header nav a.hamburgermenu {
+        display: block;
+        text-align: right;
+        float: left;
+        border: none;
+    }
+
+    header nav a {
+        font-size: .6rem;
+    }
 }
