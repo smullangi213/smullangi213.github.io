@@ -69,6 +69,10 @@ nav a.navitem:hover {
     background-color: #526bd7;
 }
 
+nav a.navitem.active {
+    background-color:#94a2e0;
+}
+
 main {
     background-color: #eee;
     padding: 2%;
