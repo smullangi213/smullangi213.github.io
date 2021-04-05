@@ -1,0 +1,15 @@
+main div.panelcontainer {
+    display: flex;
+}
+main div.panelcontainer div.leftpanel {
+    flex-basis: 20%;
+    text-align: center;
+}
+main div.panelcontainer div.centerpanel {
+    flex-basis: 60%;
+    text-align: center;
+}
+main div.panelcontainer div.rightpanel {
+    flex-basis: 20%;
+    text-align: center;
+}
