@@ -27,6 +27,11 @@ li {
     display: inline-block;
 }
 
+.purchasebutton:hover {
+    color: #ddd;
+    background-color: #526bd7;
+}
+
 #basic {
     width: 40%;
     background-color: #ddd;
