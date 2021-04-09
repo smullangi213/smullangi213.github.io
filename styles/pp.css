@@ -25,6 +25,7 @@ li {
     color: #ddd;
     border-radius: 2em;
     padding: 1em;
+    display: block;
 }
 
 #basic {
@@ -41,13 +42,13 @@ li {
     color: #324bb7;
 }
 
-@media screen and (max-width: 675px){
+
+@media screen and (max-width: 850px){
     div.panelcontainer {
         flex-direction: column;
     }
     div.panelcontainer div {
-        width: 80%;
-        padding: 10%;
         margin-bottom: 1em;
     }
+    
 }
