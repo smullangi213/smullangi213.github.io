@@ -1,0 +1,25 @@
+div.container div {
+    text-align: center;
+    background-color: #ddd;
+    padding: 2em;
+    width: 60%;
+    border-radius: 2em;
+    font-size: 120%;
+}
+
+div.container div img {
+    float: left;
+    padding-right: 2em;
+}
+
+@media screen and (max-width: 675px) {
+    div.container {
+        text-align: center;
+    }
+    div.container div {
+        width: 50%;
+    }
+    div.container div img {
+        display: none;
+    }
+}

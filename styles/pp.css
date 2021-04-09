@@ -1,0 +1,53 @@
+main div.panelcontainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.panelcontainer div {
+    background-color: #ddd;
+    padding: 2em;
+    border-radius: 2em;
+    text-align: center;
+}
+
+div.panelcontainer div ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+.purchasebutton {
+    background-color: #324bb7;
+    color: #ddd;
+    border-radius: 2em;
+    padding: 1em;
+}
+
+#basic {
+    width: 35%;
+}
+
+#ultimate {
+    background-color: #a4c2ff;
+    width: 45%;
+}
+
+#ultimate {
+    font-size: 125%;
+    color: #324bb7;
+}
+
+@media screen and (max-width: 675px){
+    div.panelcontainer {
+        flex-direction: column;
+    }
+    div.panelcontainer div {
+        width: 80%;
+        padding: 10%;
+        margin-bottom: 1em;
+    }
+}
