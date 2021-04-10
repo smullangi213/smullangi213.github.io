@@ -1,3 +1,7 @@
+/*main div.carousel {
+    text-align: center;
+}
+
 main div.panelcontainer {
     display: flex;
 }
@@ -12,4 +16,4 @@ main div.panelcontainer div.centerpanel {
 main div.panelcontainer div.rightpanel {
     flex-basis: 20%;
     text-align: center;
-}
+}*/

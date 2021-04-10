@@ -1,9 +1,10 @@
 $(document).ready(function(){
     $('.carousel').slick({
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 1300,
         slidesToShow: 1,
         arrows: false,
-        dots: true
+        dots: true,
+        adaptiveHeight: true
     });
   });
